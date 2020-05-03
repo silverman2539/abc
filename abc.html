@@ -1,0 +1,471 @@
+<html>
+	<head>
+		<title>ABCs</title>
+        <link rel="shortcut icon" href="abc.ico">
+		<style>
+			body
+			{
+				text-align: center;
+				padding: 25;
+				background-color: whitesmoke;
+			}
+			.titleText
+			{
+				font-size: 50;
+				color: gray;
+				border-bottom-style: solid;
+				border-width: thin;
+				border-color: gray;
+				margin: auto;
+				width: 575;
+				padding-bottom: 5;
+			}
+			.letter
+			{
+				font-size: 200;
+				border: none;
+				background: none;
+				padding-left: 25;
+				padding-right: 25;
+				padding-top: 8.75;
+				padding-bottom: 8.75;
+				-webkit-text-stroke-width: 2px; 
+			}
+			.words
+			{
+				float: left;
+				font-size: 25;
+				border-style: solid;
+				border-width: thin;
+				padding-left: 25;
+				padding-right: 25;
+			}
+			.container
+			{
+				margin: auto;
+				height: 245;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<p class="titleText">ABCs of Why I Love You!</p>
+		<br>
+		<div class="container" style="width:510;">
+			<button id="A" class="letter" onclick="A()" style="-webkit-text-stroke-color:firebrick; color:mistyrose;">A</button>
+			<div id="a" class="words" style="color:firebrick; display:none;">
+				<p style="color:whitesmoke; font-size:30;">.</p>
+				<p>You're <b>always</b> there for me</p>
+				<p style="color:whitesmoke; font-size:30;">.</p>
+			</div>
+		</div>
+		
+		<br>
+		
+		<div class="container" style="width:525;">
+			<button id="B" class="letter" onclick="B()" style="-webkit-text-stroke-color:tomato; color:oldlace;">B</button>
+			<div id="b" class="words" style="color:tomato; display:none;">
+				<p style="color:whitesmoke; font-size:35;">.</p>
+				<p>You are absolutely <b>beautiful</b></p>
+				<p style="color:whitesmoke; font-size:30;">.</p>
+			</div>
+		</div>
+		
+		<br>
+		
+		<div class="container" style="width:495;">
+			<button id="C" class="letter" onclick="C()" style="-webkit-text-stroke-color:gold; color:ivory;">C</button>
+			<div id="c" class="words" style="color:gold; display:none;">
+				<p style="color:whitesmoke; font-size:30;">.</p>
+				<p>You're so nice to <b>cuddle</b></p>
+				<p style="color:whitesmoke; font-size:30;">.</p>
+			</div>
+		</div>
+		
+		<br>
+		
+		<div class="container" style="width:545;">
+			<button id="D" class="letter" onclick="D()" style="-webkit-text-stroke-color:limegreen; color:honeydew;">D</button>
+			<div id="d" class="words" style="color:limegreen; display:none;">
+				<p style="color:whitesmoke; font-size:30;">.</p>
+				<p>You make me not want to <b>die</b></p>
+				<p style="color:whitesmoke; font-size:30;">.</p>
+			</div>
+		</div>
+		
+		<br>
+		
+		<div class="container" style="width:520;">
+			<button id="E" class="letter" onclick="E()" style="-webkit-text-stroke-color:steelblue; color:aliceblue;">E</button>
+			<div id="e" class="words" style="color:steelblue; display:none;">
+				<p style="color:whitesmoke; font-size:30;">.</p>
+				<p>You mean <b>everything</b> to me</p>
+				<p style="color:whitesmoke; font-size:30;">.</p>
+			</div>
+		</div>
+		
+		<br>
+		
+		<div class="container" style="width:395;">
+			<button id="F" class="letter" onclick="F()" style="-webkit-text-stroke-color:mediumorchid; color:ghostwhite;">F</button>
+			<div id="f" class="words" style="color:mediumorchid; display:none;">
+				<p style="color:whitesmoke; font-size:30;">.</p>
+				<p>Your <b>face</b> is nice</p>
+				<p style="color:whitesmoke; font-size:30;">.</p>
+			</div>
+		</div>
+		
+		<br>
+		
+		<div class="container" style="width:475;">
+			<button id="G" class="letter" onclick="G()" style="-webkit-text-stroke-color:steelblue; color:aliceblue;">G</button>
+			<div id="g" class="words" style="color:steelblue; display:none;">
+				<p style="color:whitesmoke; font-size:30;">.</p>
+				<p>You're so <b>good</b> to me</p>
+				<p style="color:whitesmoke; font-size:30;">.</p>
+			</div>
+		</div>
+		
+		<br>
+		
+		<div class="container" style="width:315;">
+			<button id="H" class="letter" onclick="H()" style="-webkit-text-stroke-color:limegreen; color:honeydew;">H</button>
+			<div id="h" class="words" style="color:limegreen; display:none;">
+				<p style="color:whitesmoke; font-size:30;">.</p>
+				<p>Ur <b>hot</b></p>
+				<p style="color:whitesmoke; font-size:30;">.</p>
+			</div>
+		</div>
+		
+		<br>
+		
+		<div class="container" style="width:265;">
+			<button id="I" class="letter" onclick="I()" style="-webkit-text-stroke-color:gold; color:ivory;">I</button>
+			<div id="i" class="words" style="color:gold; display:none;">
+				<p style="color:whitesmoke; font-size:30;">.</p>
+				<p><b>I love you</b></p>
+				<p style="color:whitesmoke; font-size:30;">.</p>
+			</div>
+		</div>
+		
+		<br>
+		
+		<div class="container" style="width:435;">
+			<button id="J" class="letter" onclick="J()" style="-webkit-text-stroke-color:tomato; color:oldlace;">J</button>
+			<div id="j" class="words" style="color:tomato; display:none;">
+				<p style="color:whitesmoke; font-size:30;">.</p>
+				<p>You make funny <b>jokes</b></p>
+				<p style="color:whitesmoke; font-size:30;">.</p>
+			</div>
+		</div>
+		
+		<br>
+		
+		<div class="container" style="width:515;">
+			<button id="K" class="letter" onclick="K()" style="-webkit-text-stroke-color:firebrick; color:mistyrose;">K</button>
+			<div id="k" class="words" style="color:firebrick; display:none;">
+				<p style="color:whitesmoke; font-size:30;">.</p>
+				<p>You're very good at <b>kissing</b></p>
+				<p style="color:whitesmoke; font-size:30;">.</p>
+			</div>
+		</div>
+		
+		<br>
+		
+		<div class="container" style="width:415;">
+			<button id="L" class="letter" onclick="L()" style="-webkit-text-stroke-color:tomato; color:oldlace;">L</button>
+			<div id="l" class="words" style="color:tomato; display:none;">
+				<p style="color:whitesmoke; font-size:30;">.</p>
+				<p>You are very <b>lovely</b></p>
+				<p style="color:whitesmoke; font-size:30;">.</p>
+			</div>
+		</div>
+		
+		<br>
+		
+		<div class="container" style="width:395;">
+			<button id="M" class="letter" onclick="M()" style="-webkit-text-stroke-color:gold; color:ivory;">M</button>
+			<div id="m" class="words" style="color:gold; display:none;">
+				<p style="color:whitesmoke; font-size:30;">.</p>
+				<p>You're <b>mine</b></p>
+				<p style="color:whitesmoke; font-size:30;">.</p>
+			</div>
+		</div>
+		
+		<br>
+		
+		<div class="container" style="width:360;">
+			<button id="N" class="letter" onclick="N()" style="-webkit-text-stroke-color:limegreen; color:honeydew;">N</button>
+			<div id="n" class="words" style="color:limegreen; display:none;">
+				<p style="color:whitesmoke; font-size:30;">.</p>
+				<p>You're <b>nice</b></p>
+				<p style="color:whitesmoke; font-size:30;">.</p>
+			</div>
+		</div>
+		
+		<br>
+		
+		<div class="container" style="width:855;">
+			<button id="O" class="letter" onclick="O()" style="-webkit-text-stroke-color:steelblue; color:aliceblue;">O</button>
+			<div id="o" class="words" style="color:steelblue; display:none;">
+				<p style="color:whitesmoke; font-size:30;">.</p>
+				<p>You make me feel like I can be <b>open</b> about how I'm feeling</p>
+				<p style="color:whitesmoke; font-size:30;">.</p>
+			</div>
+		</div>
+		
+		<br>
+		
+		<div class="container" style="width:490;">
+			<button id="P" class="letter" onclick="P()" style="-webkit-text-stroke-color:mediumorchid; color:ghostwhite;">P</button>
+			<div id="p" class="words" style="color:mediumorchid; display:none;">
+				<p style="color:whitesmoke; font-size:30;">.</p>
+				<p>You make me feel <b>pretty</b></p>
+				<p style="color:whitesmoke; font-size:30;">.</p>
+			</div>
+		</div>
+		
+		<br>
+		
+		<div class="container" style="width:450;">
+			<button id="Q" class="letter" onclick="Q()" style="-webkit-text-stroke-color:steelblue; color:aliceblue;">Q</button>
+			<div id="q" class="words" style="color:steelblue; display:none;">
+				<p style="color:whitesmoke; font-size:30;">.</p>
+				<p>You're <b>quite</b> cute</p>
+				<p style="color:whitesmoke; font-size:30;">.</p>
+			</div>
+		</div>
+		
+		<br>
+		
+		<div class="container" style="width:445;">
+			<button id="R" class="letter" onclick="R()" style="-webkit-text-stroke-color:limegreen; color:honeydew;">R</button>
+			<div id="r" class="words" style="color:limegreen; display:none;">
+				<p style="color:whitesmoke; font-size:30;">.</p>
+				<p>You're <b>really</b> funny</p>
+				<p style="color:whitesmoke; font-size:30;">.</p>
+			</div>
+		</div>
+		
+		<br>
+		
+		<div class="container" style="width:350;">
+			<button id="S" class="letter" onclick="S()" style="-webkit-text-stroke-color:gold; color:ivory;">S</button>
+			<div id="s" class="words" style="color:gold; display:none;">
+				<p style="color:whitesmoke; font-size:30;">.</p>
+				<p>You're <b>silly</b></p>
+				<p style="color:whitesmoke; font-size:30;">.</p>
+			</div>
+		</div>
+		
+		<br>
+		
+		<div class="container" style="width:470;">
+			<button id="T" class="letter" onclick="T()" style="-webkit-text-stroke-color:tomato; color:oldlace;">T</button>
+			<div id="t" class="words" style="color:tomato; display:none;">
+				<p style="color:whitesmoke; font-size:30;">.</p>
+				<p>You're <b>tall</b> which is cute</p>
+				<p style="color:whitesmoke; font-size:30;">.</p>
+			</div>
+		</div>
+		
+		<br>
+		
+		<div class="container" style="width:770;">
+			<button id="U" class="letter" onclick="U()" style="-webkit-text-stroke-color:firebrick; color:mistyrose;">U</button>
+			<div id="u" class="words" style="color:firebrick; display:none;">
+				<p style="color:whitesmoke; font-size:30;">.</p>
+				<p>You're very <b>understanding</b> when I need something</p>
+				<p style="color:whitesmoke; font-size:30;">.</p>
+			</div>
+		</div>
+		
+		<br>
+		
+		<div class="container" style="width:415;">
+			<button id="V" class="letter" onclick="V()" style="-webkit-text-stroke-color:tomato; color:oldlace;">V</button>
+			<div id="v" class="words" style="color:tomato; display:none;">
+				<p style="color:whitesmoke; font-size:30;">.</p>
+				<p>You're <b>very</b> smart</p>
+				<p style="color:whitesmoke; font-size:30;">.</p>
+			</div>
+		</div>
+		
+		<br>
+		
+		<div class="container" style="width:785;">
+			<button id="W" class="letter" onclick="W()" style="-webkit-text-stroke-color:gold; color:ivory;">W</button>
+			<div id="w" class="words" style="color:gold; display:none;">
+				<p style="color:whitesmoke; font-size:30;">.</p>
+				<p>You're literally the <b>wierdest</b> person I've ever met</p>
+				<p style="color:whitesmoke; font-size:30;">.</p>
+			</div>
+		</div>
+		
+		<br>
+		
+		<div class="container" style="width:490;">
+			<button id="X" class="letter" onclick="X()" style="-webkit-text-stroke-color:limegreen; color:honeydew;">X</button>
+			<div id="x" class="words" style="color:limegreen; display:none;">
+				<p style="color:whitesmoke; font-size:30;">.</p>
+				<p>You're always very <b>extra</b></p>
+				<p style="color:whitesmoke; font-size:30;">.</p>
+			</div>
+		</div>
+		
+		<br>
+		
+		<div class="container" style="width:775;">
+			<button id="Y" class="letter" onclick="Y()" style="-webkit-text-stroke-color:steelblue; color:aliceblue;">Y</button>
+			<div id="y" class="words" style="color:steelblue; display:none;">
+				<p style="color:whitesmoke; font-size:30;">.</p>
+				<p>You're just <b>you</b> and you're not fake which is amazing</p>
+				<p style="color:whitesmoke; font-size:30;">.</p>
+			</div>
+		</div>
+		
+		<br>
+		
+		<div class="container" style="width:925;">
+			<button id="Z" class="letter" onclick="Z()" style="-webkit-text-stroke-color:mediumorchid; color:ghostwhite;">Z</button>
+			<div id="z" class="words" style="color:mediumorchid; display:none;">
+				<p style="color:whitesmoke; font-size:30;">.</p>
+				<p>You have nice animals and there are animals in <b>zoos</b> so it counts for z</p>
+				<p style="color:whitesmoke; font-size:30;">.</p>
+			</div>
+		</div>
+		
+		<script>
+			function A()
+			{
+				document.getElementById("a").style.display = "";
+				document.getElementById("A").style.float = "left";
+			}
+			function B()
+			{
+				document.getElementById("b").style.display = "";
+				document.getElementById("B").style.float = "left";
+			}
+			function C()
+			{
+				document.getElementById("c").style.display = "";
+				document.getElementById("C").style.float = "left";
+			}
+			function D()
+			{
+				document.getElementById("d").style.display = "";
+				document.getElementById("D").style.float = "left";
+			}
+			function E()
+			{
+				document.getElementById("e").style.display = "";
+				document.getElementById("E").style.float = "left";
+			}
+			function F()
+			{
+				document.getElementById("f").style.display = "";
+				document.getElementById("F").style.float = "left";
+			}
+			function G()
+			{
+				document.getElementById("g").style.display = "";
+				document.getElementById("G").style.float = "left";
+			}
+			function H()
+			{
+				document.getElementById("h").style.display = "";
+				document.getElementById("H").style.float = "left";
+			}
+			function I()
+			{
+				document.getElementById("i").style.display = "";
+				document.getElementById("I").style.float = "left";
+			}
+			function J()
+			{
+				document.getElementById("j").style.display = "";
+				document.getElementById("J").style.float = "left";
+			}
+			function K()
+			{
+				document.getElementById("k").style.display = "";
+				document.getElementById("K").style.float = "left";
+			}
+			function L()
+			{
+				document.getElementById("l").style.display = "";
+				document.getElementById("L").style.float = "left";
+			}
+			function M()
+			{
+				document.getElementById("m").style.display = "";
+				document.getElementById("M").style.float = "left";
+			}
+			function N()
+			{
+				document.getElementById("n").style.display = "";
+				document.getElementById("N").style.float = "left";
+			}
+			function O()
+			{
+				document.getElementById("o").style.display = "";
+				document.getElementById("O").style.float = "left";
+			}
+			function P()
+			{
+				document.getElementById("p").style.display = "";
+				document.getElementById("P").style.float = "left";
+			}
+			function Q()
+			{
+				document.getElementById("q").style.display = "";
+				document.getElementById("Q").style.float = "left";
+			}
+			function R()
+			{
+				document.getElementById("r").style.display = "";
+				document.getElementById("R").style.float = "left";
+			}
+			function S()
+			{
+				document.getElementById("s").style.display = "";
+				document.getElementById("S").style.float = "left";
+			}
+			function T()
+			{
+				document.getElementById("t").style.display = "";
+				document.getElementById("T").style.float = "left";
+			}
+			function U()
+			{
+				document.getElementById("u").style.display = "";
+				document.getElementById("U").style.float = "left";
+			}
+			function V()
+			{
+				document.getElementById("v").style.display = "";
+				document.getElementById("V").style.float = "left";
+			}
+			function W()
+			{
+				document.getElementById("w").style.display = "";
+				document.getElementById("W").style.float = "left";
+			}
+			function X()
+			{
+				document.getElementById("x").style.display = "";
+				document.getElementById("X").style.float = "left";
+			}
+			function Y()
+			{
+				document.getElementById("y").style.display = "";
+				document.getElementById("Y").style.float = "left";
+			}
+			function Z()
+			{
+				document.getElementById("z").style.display = "";
+				document.getElementById("Z").style.float = "left";
+			}
+		</script>
+	</body>
+</html>
